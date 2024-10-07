@@ -1,0 +1,89 @@
+body {
+  background-color: #35143f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.container .hero {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 500px;
+  gap: 32px;
+}
+
+.container .hero h2 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.container .hero .btnAndImg {
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .hero .btnAndImg a {
+  color: #fff;
+  background-color: #f8a01a;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container .hero .btnAndImg img {
+  width: 40%;
+  margin: 16px auto;
+}
+
+.container .victor {
+  width: 100%;
+}
+.container .victorMobile {
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    margin: 24px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .hero h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .container .victorMobile {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  .container .victor {
+    width: 100%;
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .container .hero {
+    width: 100%;
+  }
+}
