@@ -34,7 +34,7 @@ body {
   align-items: center;
 }
 
-.container .hero .btnAndImg a {
+.container .hero .btnAndImg .btn {
   color: #fff;
   background-color: #f8a01a;
   border-radius: 8px;
