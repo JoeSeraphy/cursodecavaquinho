@@ -3,6 +3,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   max-width: 1024px;
   height: 100vh;
@@ -35,13 +40,12 @@ body {
 }
 
 .container .hero .btnAndImg .btn {
-  color: #fff;
   background-color: #f8a01a;
   border-radius: 8px;
   padding: 12px 16px;
   font-size: 24px;
   font-weight: 600;
-  text-decoration: none;
+  border: none;
   text-align: center;
 }
 
